@@ -1,1 +1,11 @@
 @import "{{ site.theme }}";
+
+.wrapper {
+    width: 1050px;
+}
+header {
+    width: 300px;
+}
+section {
+    width: 700px;
+}
