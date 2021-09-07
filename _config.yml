@@ -4,12 +4,20 @@ plugins:
 
 title: Gilbert MONTCHO
 description: Passionate with exploring data to discover insights and to equip organizations with contextual counseling that maximize their impact and return on investment.
+
 logo: /assets/img/logo.png
 
+header_pages:
+  - about.md
+  - posts.md
 
-minima:
+author:
+  name: Gilbert M
+  email: "gilbert@example.com"
+
+
+  minima:
   social_links:
-    github: poidstotal
-    instagram: jekyll
-    linkedin: gilbert-montcho
-
+    twitter: jekyllrb
+    github: jekyll
+    linkedin: jekyll
