@@ -1,38 +1,13 @@
-## Welcome to personal workspace
-Here, I make public some of my work. You may use the navigation below to view the desired articles.
+## Welcome to my personal blog
 
-You can use the [editor on GitHub](https://github.com/poidstotal/Blog/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### About Me
+Here, I share some of my work that I believe would be of interest to you. I'm a PhD candidate at the University of Montreal, Canada, doing research on labor market outcomes of Canadian born and immigrants in a population aging context.
+I have an extensive research experience in Labor Economics, Computational Demography, and Machine Learning Models.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+For my data analysis, I use R predominantly, Stata very often and Python occasionally. I also have a working knowledge of SAS, SPSS and most reporting and visualization tools such as Tableau and Microsoft Office Suite. With these tools, I'm comfortable in performing sophisticated statistical analysis followed by contextual policy or business recommendations.
 
-### Markdown
+### Previously
+My earlier graduate training was in econometrics and related statistical analysis technics. However, a passion for programming led me to start my career as a web developer. For about 5 years in this role, I have developed web programming skills to an expert level. You can read more about my professional experiences on my <a href="https://www.linkedin.com/in/gilbert-montcho">LinkedIn</a> Profile.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/poidstotal/Blog/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Underneath these technical skills, is my deep passion for Design, as Steve Job would describe it, that is not only how things look and feel but also how they work. I see in this description the culture and the structure that enable a system to work. I like to view everything in life as nested systems of which we become a collaborator, once we learn the underlying design.
