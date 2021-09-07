@@ -5,3 +5,11 @@ plugins:
 title: Gilbert MONTCHO
 description: Passionate with exploring data to discover insights and to equip organizations with contextual counseling that maximize their impact and return on investment.
 logo: /assets/img/logo.png
+
+
+minima:
+  social_links:
+    github: poidstotal
+    instagram: jekyll
+    linkedin: gilbert-montcho
+
