@@ -1,4 +1,5 @@
-## Welcome personal workspace
+## Welcome to personal workspace
+Here, I make public some of my work. You may use the navigation below to view the desired articles.
 
 You can use the [editor on GitHub](https://github.com/poidstotal/Blog/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
