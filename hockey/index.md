@@ -29,11 +29,11 @@ If you do not have a PHP development environment, you want to use docker to crea
 
 ``` bash
 docker run -d -it \
-  -v "$PWD":/var/www/html/:rw \
-  --name phpServer --hostname phpServer \
-  -w /var/www/html \
-  -p 80:80 \
-  php:7.2-apache
+    -v "$PWD":/var/www/html/:rw \
+    --name hockeyApp --hostname hockeyApp \
+    -w /var/www/html \
+    -p 80:80 \
+    php:7.2-apache
 ```
 
 
@@ -43,13 +43,12 @@ We start by creating functions that simulate each process of the league. First, 
 
 ``` php
 function getWinProb(){
-    # Simulate 21 players with 15 to 100 as frequency to score a goal
-    # This makes the probability of scoring to range from 0.15 to 1
-    $playerScoreProbs = range(15, 100);
-    shuffle($playerScoreProbs);
-    $playerScoreProbs = array_slice($playerScoreProbs ,0,20);
-    $teamWinProb = array_sum($playerScoreProbs) / count($playerScoreProbs);
-    return($teamWinProb);
+        # Simulate 21 players with 15 to 100 as frequency to score a goal
+        # This makes the probability of scoring to range from 0.15 to 1
+        # Return the proability to win for the team.
+        for ($i=0; $i < 21; $i++) {$playerProb[] = mt_rand(15,100);}
+        $teamProb = array_sum($playerProb) / count($playerProb);
+        return($teamProb);
 }
 ```
 

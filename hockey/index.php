@@ -3,12 +3,10 @@
     function getWinProb(){
         # Simulate 21 players with 15 to 100 as frequency to score a goal
         # This makes the probability of scoring to range from 0.15 to 1
-        # Return sthe the proability to win for the team.
-        $playerScoreProbs = range(15, 100);
-        shuffle($playerScoreProbs);
-        $playerScoreProbs = array_slice($playerScoreProbs ,0,20);
-        $teamWinProb = array_sum($playerScoreProbs) / count($playerScoreProbs);
-        return($teamWinProb);
+        # Return the proability to win for the team.
+        for ($i=0; $i < 21; $i++) {$playerProb[] = mt_rand(15,100);}
+        $teamProb = array_sum($playerProb) / count($playerProb);
+        return($teamProb);
     }
 
     # function to run the game for a single group of two teams
