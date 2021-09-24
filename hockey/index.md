@@ -35,8 +35,6 @@ docker run -d -it \
     -p 80:80 \
     php:7.2-apache
 ```
-
-
 ## Writing the application
 
 We start by creating functions that simulate each process of the league. First, we need a function that simulates a team and the chance of its winning a game. The function needs no input, as the players are randomized. It returns only the winning rate of the team since the detailed information of the members has no other usage afterward.
